@@ -1,0 +1,40 @@
+:root{
+    --cor-primaria: #8c0375;
+    --cor-secundaria: #C004d9;
+    --cor-terciaria: #9303a6;
+    --cor-quaternaria: #5d04d9;
+    --cor-quinaria: #03318c;
+    --cor-preta: #000000;
+    --cor-branca: #ffffff;
+    --fonte-base: "Press Start 2P", system-ui;
+    --fonte-fina: 200;
+    --fonte-meida: 400;
+    --fonte-destaque: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-base);
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho {
+    background-color: var(--cor-quaternaria);
+    padding: 0.5em;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em;
+    color: var(--cor-branca);
+}
