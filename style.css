@@ -6,7 +6,8 @@
     --cor-quinaria: #03318c;
     --cor-preta: #000000;
     --cor-branca: #ffffff;
-    --fonte-base: "Press Start 2P", system-ui;
+    --fonte-primaria: "Press Start 2P", system-ui;
+    --fonte-secundaria: "IBM Plex Mono", monospace;
     --fonte-fina: 200;
     --fonte-meida: 400;
     --fonte-destaque: 700;
@@ -16,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--fonte-base);
+    font-family: var(--fonte-primaria);
 }
 
 .press-start-2p-regular {
@@ -24,6 +25,8 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* HEADER  */
 
 .cabecalho {
     background-color: var(--cor-quaternaria);
@@ -37,4 +40,104 @@
     gap: 2em;
     padding: 0.5em;
     color: var(--cor-branca);
+}
+
+/* BODY */
+
+.principal {
+    background-color: var(--cor-branca);
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em;
+}
+
+.principal-relacoes-mural {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.principal-relacoes-mural-lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2em;
+    gap: 1em;
+}
+
+.principal-relacoes-mural-card {
+    background-color: var(--cor-quaternaria);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    padding: 1em;
+    border: 1px solid var(--cor-preta);
+    border-radius: 0.8em;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.principal-relacoes-mural-card img {
+    width: 100%;
+    border-radius: 0.5em;
+    border: 1px solid var(--cor-branca);
+}
+
+.principal-relacoes-mural-card-titulo {
+    color: var(--cor-branca);
+    font-family: var(--fonte-primaria);
+    font-weight: var(--fonte-fina);
+    font-size: 0.9em;
+    margin-top: 0.8em;
+}
+
+.principal-relacoes-mural-card-descricao {
+    color: var(--cor-branca);
+    font-family: var(--fonte-secundaria);
+    font-weight: var(--fonte-meida);
+    font-size: 0.8em;
+    margin: 0.5em 0;
+}
+
+.principal-relacoes-mural-card-tag {
+}
+
+/* FOOTER */
+
+.rodape {
+    background-color: var(--cor-quaternaria);
+    padding: 3em;
+    margin: 2em 0 0 0;
+}
+
+.rodape-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: var(--cor-branca);
+}
+
+.rodape-texto-superior {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-branca);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+.rodape-texto-inferior {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-branca);
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.8em;
+    padding: 0.5em;
+    letter-spacing: 0.2em;
 }
