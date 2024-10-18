@@ -52,6 +52,8 @@
     margin: 2em;
 }
 
+/* MURAL DE RELAÇÕES */
+
 .principal-relacoes-mural {
     width: 60%;
     display: flex;
@@ -59,6 +61,7 @@
     justify-content: center;
     align-items: center;
     margin: 2em;
+    gap: 1em;
 }
 
 .principal-relacoes-mural-lista {
@@ -70,12 +73,13 @@
 
 .principal-relacoes-mural-card {
     background-color: var(--cor-quaternaria);
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0.1em;
+    justify-content: space-around;
+    gap: 0.5em;
     padding: 1em;
-    border: 1px solid var(--cor-preta);
+    border: 0.2em solid var(--cor-preta);
     border-radius: 0.8em;
     align-items: start;
     box-sizing: border-box;
@@ -84,15 +88,15 @@
 .principal-relacoes-mural-card img {
     width: 100%;
     border-radius: 0.5em;
-    border: 1px solid var(--cor-branca);
+    border: 0.15em solid var(--cor-branca);
 }
 
 .principal-relacoes-mural-card-titulo {
     color: var(--cor-branca);
     font-family: var(--fonte-primaria);
     font-weight: var(--fonte-fina);
-    font-size: 0.9em;
-    margin-top: 0.8em;
+    font-size: 1em;
+    margin-top: 0.5em;
 }
 
 .principal-relacoes-mural-card-descricao {
@@ -104,6 +108,25 @@
 }
 
 .principal-relacoes-mural-card-tag {
+    font-size: 0.7em;
+    background-color: var(--cor-primaria);
+    border: 0.15em solid var(--cor-branca);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: var(--cor-branca);
+}
+
+.principal-relacoes-mural-card-botao {
+    align-self: end;
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    border: none;
+    background: url("assets/lixo.png") no-repeat center center;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    background-color: transparent; /* Fundo transparente */
 }
 
 /* FORMS */

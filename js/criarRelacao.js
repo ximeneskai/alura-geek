@@ -1,4 +1,4 @@
-import { conect } from ";/conect.js";
+import { conect } from "./conect.js";
 const formulario = document.querySelector('[data-formulario]');
 
 async function criaNovaRelacao(evento) {

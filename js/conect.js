@@ -1,7 +1,7 @@
 
 async function listaRelacoes() {
 
-    const conexao = await fetch('http://localhost:3000/relacoes');
+    const conexao = await fetch("http://localhost:3000/relacoes");
     const relacoes = await conexao.json();
 
     return relacoes;
@@ -22,9 +22,12 @@ async function adicionaRelacao(nome, descricao, imagem, tag) {
         })
     });
 
-    const novaRelacao = conexao.json();
-    
+    const novaRelacao = await conexao.json();
+
     return novaRelacao;
 }
 
-export {listaRelacoes, adicionaRelacao};
+export const conect = {
+    listaRelacoes, 
+    adicionaRelacao
+};

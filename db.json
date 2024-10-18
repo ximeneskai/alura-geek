@@ -1,25 +1,39 @@
 {
-    "relacoes": [
-        {
-            "id": 1,
-            "nome": "Terezinha",
-            "descricao": "Uma mulher forte e guerreira que me mostrou desde o início a importância de construir coisas boas e agir com bons valores.", 
-            "imagem": "assets/imagem-mae.jpg",
-            "tag": "MÃE"
-        },
-        {
-            "id": 2,
-            "nome": "Agna",
-            "descricao": "Alguém que abriu minha mente para a importância da comunicação e intencionalidade na construção das relações", 
-            "imagem": "assets/imagem-agna.jpg",
-            "tag": "NAMORADA"
-        },
-        {
-            "id": 3,
-            "nome": "Uli",
-            "descricao": "Pessoa de uma energia incrível e que tem um coração de ouro. Além do yoga, também me ensina sobre o princípio de não violência e a ter bondade nas atitudes.",
-            "imagem": "assets/imagem-uli.jpg",
-            "tag": "AMIGA"
-        }
-    ]
+  "relacoes": [
+    {
+      "id": "1",
+      "nome": "Terezinha",
+      "descricao": "Uma mulher forte e guerreira que me mostrou desde o início a importância de construir coisas boas e agir com bons valores.",
+      "imagem": "assets/imagem-mae.jpg",
+      "tag": "MÃE"
+    },
+    {
+      "id": "2",
+      "nome": "Agna",
+      "descricao": "Alguém que abriu minha mente para a importância da comunicação e intencionalidade na construção das relações",
+      "imagem": "assets/imagem-agna.jpg",
+      "tag": "NAMORADA"
+    },
+    {
+      "id": "3",
+      "nome": "Uli",
+      "descricao": "Pessoa de uma energia incrível e que tem um coração de ouro. Além do yoga, também me ensina sobre o princípio de não violência e a ter bondade nas atitudes.",
+      "imagem": "assets/imagem-uli.jpg",
+      "tag": "AMIGA"
+    },
+    {
+      "id": "24bf",
+      "nome": "Monica",
+      "descricao": "Uma personagem que me acompanha desde a infância.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/43/Monica_%28Mauricio_de_Sousa_Produ%C3%A7%C3%B5es%29.png",
+      "tag": "DESENHO"
+    },
+    {
+      "id": "dae2",
+      "nome": "Débora",
+      "descricao": "Uma companheira incrível na jornada da vida e que anda de mãos dadas comigo no caminho do autoconhecimento.",
+      "imagem": "https://avatars.githubusercontent.com/u/19142381?v=4",
+      "tag": "AMIGA"
+    }
+  ]
 }
