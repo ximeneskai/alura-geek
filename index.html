@@ -19,61 +19,67 @@
     <main class="principal">
         <section class="principal-relacoes-mural">
             <h2 class="principal-relacoes-mural-titulo">MINHAS RELAÇÕES:</h2>
-                <ul class="principal-relacoes-mural-lista">
-                    <li class="principal-relacoes-mural-card">
+                <div class="principal-relacoes-mural-lista" data-lista>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                    <li class="principal-relacoes-mural-card">
+                    </div>
+                    <div class="principal-relacoes-mural-card">
                         <img src="assets/imagem-mae.jpg" alt="">
                         <h3 class="principal-relacoes-mural-card-titulo">Terezinha</h3>
                         <h4 class="principal-relacoes-mural-card-descricao">Uma breve descrição aqui.</h4>
                         <span class="principal-relacoes-mural-card-tag">MÃE</span>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             <!-- PRODUZIR O MURAL COM CARDS - COMO? -->
         </section>
         <section class="principal-relacoes-form">
             <h2 class="principal-relacoes-form-titulo">ADICIONAR RELAÇÕES:</h2>
-            <!-- PRODUZIR O FORM DE CADASTRO DE RELAÇÕES - COMO? -->
+            <div class="principal-relacoes-form" data-formulario>
+                <input class="principal-relacoes-form-input" type="text" placeholder="Nome e apelido" data-nome>
+                <input class="principal-relacoes-form-input" type="text" placeholder="Descrição" data-descricao>
+                <input class="principal-relacoes-form-input" type="url" placeholder="Link da imagem" data-imagem>
+                <input class="principal-relacoes-form-input" type="text" placeholder="TAG" data-tag>
+                <button class="principal-relacoes-form-botao">ADD</button>
+            </div>
         </section>
 
     </main>
@@ -85,5 +91,7 @@
         <h4 class="rodape-texto-superior">DESENVOLVIDO POR KAI XIMENES</h4>
         <h5 class="rodape-texto-inferior">ALURA - 2024</h5>
     </footer>
+    <script src="js/mostrarRelacao.js" type="module"></script>
+    <script src="js/criarRelacao.js" type="module"></script>
 </body>
 </html>

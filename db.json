@@ -1,0 +1,25 @@
+{
+    "relacoes": [
+        {
+            "id": 1,
+            "nome": "Terezinha",
+            "descricao": "Uma mulher forte e guerreira que me mostrou desde o início a importância de construir coisas boas e agir com bons valores.", 
+            "imagem": "assets/imagem-mae.jpg",
+            "tag": "MÃE"
+        },
+        {
+            "id": 2,
+            "nome": "Agna",
+            "descricao": "Alguém que abriu minha mente para a importância da comunicação e intencionalidade na construção das relações", 
+            "imagem": "assets/imagem-agna.jpg",
+            "tag": "NAMORADA"
+        },
+        {
+            "id": 3,
+            "nome": "Uli",
+            "descricao": "Pessoa de uma energia incrível e que tem um coração de ouro. Além do yoga, também me ensina sobre o princípio de não violência e a ter bondade nas atitudes.",
+            "imagem": "assets/imagem-uli.jpg",
+            "tag": "AMIGA"
+        }
+    ]
+}
